@@ -1,66 +1,233 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "email": "ashwin@example.com",
-        "username": "ashwin",
-        "password": "password123"
-      },
-      {
-        "id": 2,
-        "email": "",
-        "username": "",
-        "password": ""
-      },
-      {
-        "id": 3,
-        "email": "",
-        "username": "",
-        "password": ""
-      }
-    ],
-    "properties": [
-      {
-        "id": 1,
-        "title": "Beautiful Family House",
-        "location": "123 Main St, Springfield",
-        "images": ["image1.jpg", "image2.jpg"],
-        "ownerName": "John Doe",
-        "address": "123 Main St, Springfield, IL 62704",
-        "description": "A beautiful family house with spacious rooms and a large backyard.",
-        "map": "https://maps.google.com/?q=123+Main+St,+Springfield,+IL+62704",
-        "videoLink": "https://www.youtube.com/watch?v=example",
-        "amenities": [
-          "Garage",
-          "Swimming Pool",
-          "Garden",
-          "Central Heating"
-        ]
-      },
-      {
-        "id": 2,
-        "title": "",
-        "location": "",
-        "images": [],
-        "ownerName": "",
-        "address": "",
-        "description": "",
-        "map": "",
-        "videoLink": "",
-        "amenities": []
-      },
-      {
-        "id": 3,
-        "title": "",
-        "location": "",
-        "images": [],
-        "ownerName": "",
-        "address": "",
-        "description": "",
-        "map": "",
-        "videoLink": "",
-        "amenities": []
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": 1,
+      "email": "ashwin@example.com",
+      "username": "ashwin",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "email": "shani@example.com",
+      "username": "shani",
+      "password": "password456"
+    },
+    {
+      "id": 3,
+      "email": "abhishek@example.com",
+      "username": "abhishek",
+      "password": "password789"
+    },
+    {
+      "id": 4,
+      "email": "albin@example.com",
+      "username": "albin",
+      "password": "password101"
+    },
+    {
+      "id": 5,
+      "email": "afsal@example.com",
+      "username": "afsal",
+      "password": "password202"
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "title": "Beautiful Family House",
+      "location": "123 Main St, Springfield",
+      "images": ["https://via.placeholder.com/150", "https://via.placeholder.com/150"],
+      "ownerName": "John Doe",
+      "address": "123 Main St, Springfield, IL 62704",
+      "description": "A beautiful family house with spacious rooms and a large backyard.",
+      "map": "https://maps.google.com/?q=123+Main+St,+Springfield,+IL+62704",
+      "videoLink": "",
+      "amenities": [
+        "Garage",
+        "Swimming Pool",
+        "Garden",
+        "Central Heating"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Beachside Villa",
+      "location": "Kovalam, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Kovalam_Beach_2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/23/Kovalam_Lighthouse_Beach.jpg"
+      ],
+      "ownerName": "Amit Kumar",
+      "address": "123 Beach Rd, Kovalam, Kerala",
+      "description": "A luxurious villa with a stunning beach view and modern amenities.",
+      "map": "https://maps.google.com/?q=Kovalam,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Beach Access",
+        "Private Pool",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hilltop Cottage",
+      "location": "Munnar, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tea_Gardens%2C_Munnar%2C_Kerala.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Munnar_hillstation.jpg"
+      ],
+      "ownerName": "Sneha Roy",
+      "address": "45 Hilltop Rd, Munnar, Kerala",
+      "description": "A cozy cottage with breathtaking views of the hills, perfect for a peaceful retreat.",
+      "map": "https://maps.google.com/?q=Munnar,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Fireplace",
+        "Garden",
+        "Mountain View",
+        "Breakfast Included"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Backwater Bungalow",
+      "location": "Alleppey, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/54/Alleppey_Backwaters.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/31/Alleppey_Houseboat.jpg"
+      ],
+      "ownerName": "Rajesh Nair",
+      "address": "789 Backwater Rd, Alleppey, Kerala",
+      "description": "A serene bungalow located on the picturesque backwaters of Alleppey.",
+      "map": "https://maps.google.com/?q=Alleppey,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Houseboat Rides",
+        "Fishing",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Heritage Villa",
+      "location": "Fort Kochi, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7b/Fort_Kochi_Beach.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2e/Fort_Kochi_Chinese_Fishing_Nets.jpg"
+      ],
+      "ownerName": "Anjali Menon",
+      "address": "456 Heritage Rd, Fort Kochi, Kerala",
+      "description": "A historic villa in the heart of Fort Kochi, blending colonial charm with modern comfort.",
+      "map": "https://maps.google.com/?q=Fort+Kochi,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Heritage Walks",
+        "Beach Access",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Riverside Retreat",
+      "location": "Wayanad, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/30/Wayanad_Landscape.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4b/Wayanad_River.jpg"
+      ],
+      "ownerName": "Kiran Kumar",
+      "address": "987 River Rd, Wayanad, Kerala",
+      "description": "A tranquil retreat by the river, surrounded by the lush greenery of Wayanad.",
+      "map": "https://maps.google.com/?q=Wayanad,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "River Views",
+        "Nature Walks",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Tea Estate Bungalow",
+      "location": "Vagamon, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/55/Vagamon_Tea_Estate.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/14/Vagamon_Hills.jpg"
+      ],
+      "ownerName": "Meera Pillai",
+      "address": "234 Estate Rd, Vagamon, Kerala",
+      "description": "A charming bungalow situated in the midst of a tea estate in Vagamon.",
+      "map": "https://maps.google.com/?q=Vagamon,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Tea Estate Tours",
+        "Mountain Views",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Forest Cabin",
+      "location": "Thekkady, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/Thekkady_Forest.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a4/Thekkady_Lake.jpg"
+      ],
+      "ownerName": "Nikhil Thomas",
+      "address": "321 Forest Rd, Thekkady, Kerala",
+      "description": "A secluded cabin in the forest, offering a perfect escape into nature.",
+      "map": "https://maps.google.com/?q=Thekkady,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Wildlife Safari",
+        "Forest Treks",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Lakeview Apartment",
+      "location": "Kumarakom, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Kumarakom_Lake.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/93/Kumarakom_Houseboat.jpg"
+      ],
+      "ownerName": "Lakshmi Iyer",
+      "address": "654 Lake Rd, Kumarakom, Kerala",
+      "description": "A modern apartment with stunning views of the lake, perfect for relaxation.",
+      "map": "https://maps.google.com/?q=Kumarakom,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Lake Views",
+        "Houseboat Rides",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Mountain View Villa",
+      "location": "Ponmudi, Kerala",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/54/Ponmudi_Hills.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/81/Ponmudi_Viewpoint.jpg"
+      ],
+      "ownerName": "Vivek Nair",
+      "address": "876 Mountain Rd, Ponmudi, Kerala",
+      "description": "A luxurious villa with breathtaking mountain views, ideal for a peaceful getaway.",
+      "map": "https://maps.google.com/?q=Ponmudi,+Kerala",
+      "videoLink": "",
+      "amenities": [
+        "Mountain Views",
+        "Nature Trails",
+        "Wi-Fi",
+        "Air Conditioning"
+      ]
+    }
+  ]
+}
